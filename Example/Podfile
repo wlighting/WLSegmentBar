@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLSegmentBar_Example' do
+  pod 'WLSegmentBar', :path => '../'
+
+  target 'WLSegmentBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E200742547FF62C5627A1F17132F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		325086E8BCB0805B8932A9E0CDC3651B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		35288F27DC9EC243F5C281828514EF4D /* WLSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DA4BCC2F3CC57B8A2F3008D67C63D6 /* WLSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D0D08BC35C9ED86118D47493AEE1F3 /* Pods-WLSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C431B9EA9B3929240D550456985B5DE2 /* Pods-WLSegmentBar_Tests-dummy.m */; };
+		6CBF79248F11BA73F18D47C1E8E87D4F /* Pods-WLSegmentBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA828DC55722EADB6AD8464F2FEA967 /* Pods-WLSegmentBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82ACA1F47FECA3100F57329977F88B72 /* Pods-WLSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C49A5802771E91CE659809565A8B2AA /* Pods-WLSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BAAAEA76E6A5E1B6F56FF57B537F98 /* WLSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7A44BFE2BB99815A2C6AC1E56FCA5 /* WLSegmentBar-dummy.m */; };
+		E940B2EEB5E5749500819AE4DCF00812 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D4933790036188A5387131D4B11F78EB /* ReplaceMe.m */; };
+		E9FD87BA6490855AA1A38A781237EA00 /* Pods-WLSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C37888FBF08FFAB3F4485097D85EB /* Pods-WLSegmentBar_Example-dummy.m */; };
+		FB375E695FE1C3E91A16A810F2F5F554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5890104D8A809197415B1C0BC10FE1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB8912C49ACE4C67BADACFA56C2CC63;
+			remoteInfo = WLSegmentBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AE9E67786F8B1C71416228499C0926 /* Pods-WLSegmentBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLSegmentBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0E49A250F5E25E4FF80F11078F692D15 /* Pods-WLSegmentBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLSegmentBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		212C37888FBF08FFAB3F4485097D85EB /* Pods-WLSegmentBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLSegmentBar_Example-dummy.m"; sourceTree = "<group>"; };
+		2A5DAB2AC0C796FEDBD24DFF295FBAC7 /* Pods-WLSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C49A5802771E91CE659809565A8B2AA /* Pods-WLSegmentBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLSegmentBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3FA828DC55722EADB6AD8464F2FEA967 /* Pods-WLSegmentBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLSegmentBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		4159940192FC65D93ED36A3447B20B66 /* Pods-WLSegmentBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLSegmentBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		4E789268A1F3DF994C15F1E36AE348BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BE3BA0E76A8C3051AD0B756BDF8055 /* Pods_WLSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLSegmentBar_Tests.framework; path = "Pods-WLSegmentBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68BECB108EADDBF1E188EC6D0005CBFA /* Pods-WLSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69B3C1186F7934194E3D6723BFBE289B /* Pods-WLSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		849F7F6C6135A53B5C37EDCBD4E11789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873D0AB10A803D66FA2B65FC7CFCE877 /* Pods-WLSegmentBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLSegmentBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CF76E18579D82E5F2BB8D6044072933 /* Pods-WLSegmentBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLSegmentBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A347529B164BE7C8C5F67D03AE76E835 /* Pods-WLSegmentBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WLSegmentBar_Tests.modulemap"; sourceTree = "<group>"; };
+		AAA403106458E1FF7AFE31EEF86B7E8F /* Pods-WLSegmentBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLSegmentBar_Example-resources.sh"; sourceTree = "<group>"; };
+		AF1E421EC58B480B702E0B83BB293DE2 /* WLSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLSegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		B9DA4BCC2F3CC57B8A2F3008D67C63D6 /* WLSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLSegmentBar-umbrella.h"; sourceTree = "<group>"; };
+		C34D07888FCDB224DB5C60828A8AEB6C /* Pods-WLSegmentBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WLSegmentBar_Example.modulemap"; sourceTree = "<group>"; };
+		C431B9EA9B3929240D550456985B5DE2 /* Pods-WLSegmentBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLSegmentBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF55387CCC89FF09EB700E30042649F0 /* WLSegmentBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLSegmentBar.xcconfig; sourceTree = "<group>"; };
+		D4933790036188A5387131D4B11F78EB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D54301622C7BF79C27853B30361EDDC0 /* Pods-WLSegmentBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLSegmentBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D988A3D3BCA89832045B506E53A819CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE9B38CB4BF3F940E344C5A9DF63CFC /* Pods_WLSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLSegmentBar_Example.framework; path = "Pods-WLSegmentBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04435584EC7C9FC885EF0DD9BA07CDB /* WLSegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLSegmentBar.framework; path = WLSegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F7A44BFE2BB99815A2C6AC1E56FCA5 /* WLSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLSegmentBar-dummy.m"; sourceTree = "<group>"; };
+		EAC78743DA6CC907EB57C2BAA76299B8 /* Pods-WLSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC78DE537B93142501F46885AEC1E85 /* WLSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WLSegmentBar.modulemap; sourceTree = "<group>"; };
+		FDDCE7C4C56D34C2B0AB27083A490B8C /* Pods-WLSegmentBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLSegmentBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC511B91245403408E7AB2C24299DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB375E695FE1C3E91A16A810F2F5F554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8F2A5AD7772CE122D794F79A49591B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E200742547FF62C5627A1F17132F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00D73CB2A80C844F2303D89F72053A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325086E8BCB0805B8932A9E0CDC3651B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1073704DC127E1FAE207F0A7C1C557FA /* WLSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9C4752B91B53E953D68CA805495DC /* Classes */,
+			);
+			name = WLSegmentBar;
+			path = WLSegmentBar;
+			sourceTree = "<group>";
+		};
+		2289D30E178241D23D700E38DB542ABB /* Pods-WLSegmentBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				849F7F6C6135A53B5C37EDCBD4E11789 /* Info.plist */,
+				A347529B164BE7C8C5F67D03AE76E835 /* Pods-WLSegmentBar_Tests.modulemap */,
+				0E49A250F5E25E4FF80F11078F692D15 /* Pods-WLSegmentBar_Tests-acknowledgements.markdown */,
+				9CF76E18579D82E5F2BB8D6044072933 /* Pods-WLSegmentBar_Tests-acknowledgements.plist */,
+				C431B9EA9B3929240D550456985B5DE2 /* Pods-WLSegmentBar_Tests-dummy.m */,
+				05AE9E67786F8B1C71416228499C0926 /* Pods-WLSegmentBar_Tests-frameworks.sh */,
+				4159940192FC65D93ED36A3447B20B66 /* Pods-WLSegmentBar_Tests-resources.sh */,
+				3C49A5802771E91CE659809565A8B2AA /* Pods-WLSegmentBar_Tests-umbrella.h */,
+				2A5DAB2AC0C796FEDBD24DFF295FBAC7 /* Pods-WLSegmentBar_Tests.debug.xcconfig */,
+				68BECB108EADDBF1E188EC6D0005CBFA /* Pods-WLSegmentBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WLSegmentBar_Tests";
+			path = "Target Support Files/Pods-WLSegmentBar_Tests";
+			sourceTree = "<group>";
+		};
+		4D093DAB05973C6D01F973F46204CB77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D988A3D3BCA89832045B506E53A819CF /* Info.plist */,
+				EDC78DE537B93142501F46885AEC1E85 /* WLSegmentBar.modulemap */,
+				CF55387CCC89FF09EB700E30042649F0 /* WLSegmentBar.xcconfig */,
+				E0F7A44BFE2BB99815A2C6AC1E56FCA5 /* WLSegmentBar-dummy.m */,
+				AF1E421EC58B480B702E0B83BB293DE2 /* WLSegmentBar-prefix.pch */,
+				B9DA4BCC2F3CC57B8A2F3008D67C63D6 /* WLSegmentBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLSegmentBar";
+			sourceTree = "<group>";
+		};
+		50744339A0A6D524C4A99850ACEF8880 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBEF4F781A2DC5C986F0323F51142B /* WLSegmentBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				50744339A0A6D524C4A99850ACEF8880 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BC8229A2D318679839158D86D2962C21 /* Products */,
+				EB80BDD467EDE81AED5009DEFF9D3F4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA460D521901DBACE788D117C6D932B /* Pods-WLSegmentBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E789268A1F3DF994C15F1E36AE348BD /* Info.plist */,
+				C34D07888FCDB224DB5C60828A8AEB6C /* Pods-WLSegmentBar_Example.modulemap */,
+				873D0AB10A803D66FA2B65FC7CFCE877 /* Pods-WLSegmentBar_Example-acknowledgements.markdown */,
+				FDDCE7C4C56D34C2B0AB27083A490B8C /* Pods-WLSegmentBar_Example-acknowledgements.plist */,
+				212C37888FBF08FFAB3F4485097D85EB /* Pods-WLSegmentBar_Example-dummy.m */,
+				D54301622C7BF79C27853B30361EDDC0 /* Pods-WLSegmentBar_Example-frameworks.sh */,
+				AAA403106458E1FF7AFE31EEF86B7E8F /* Pods-WLSegmentBar_Example-resources.sh */,
+				3FA828DC55722EADB6AD8464F2FEA967 /* Pods-WLSegmentBar_Example-umbrella.h */,
+				EAC78743DA6CC907EB57C2BAA76299B8 /* Pods-WLSegmentBar_Example.debug.xcconfig */,
+				69B3C1186F7934194E3D6723BFBE289B /* Pods-WLSegmentBar_Example.release.xcconfig */,
+			);
+			name = "Pods-WLSegmentBar_Example";
+			path = "Target Support Files/Pods-WLSegmentBar_Example";
+			sourceTree = "<group>";
+		};
+		BBF9C4752B91B53E953D68CA805495DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4933790036188A5387131D4B11F78EB /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8229A2D318679839158D86D2962C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9B38CB4BF3F940E344C5A9DF63CFC /* Pods_WLSegmentBar_Example.framework */,
+				56BE3BA0E76A8C3051AD0B756BDF8055 /* Pods_WLSegmentBar_Tests.framework */,
+				E04435584EC7C9FC885EF0DD9BA07CDB /* WLSegmentBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB80BDD467EDE81AED5009DEFF9D3F4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA460D521901DBACE788D117C6D932B /* Pods-WLSegmentBar_Example */,
+				2289D30E178241D23D700E38DB542ABB /* Pods-WLSegmentBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0CBEF4F781A2DC5C986F0323F51142B /* WLSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				4D093DAB05973C6D01F973F46204CB77 /* Support Files */,
+				1073704DC127E1FAE207F0A7C1C557FA /* WLSegmentBar */,
+			);
+			name = WLSegmentBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87E3DD1C8141B2D3AE9D0BEBE93A74BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35288F27DC9EC243F5C281828514EF4D /* WLSegmentBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84945660E5B6EB2B8A9CEED9FFA9D2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBF79248F11BA73F18D47C1E8E87D4F /* Pods-WLSegmentBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC7C42A688A1535F0E331E86FFFE9A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ACA1F47FECA3100F57329977F88B72 /* Pods-WLSegmentBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FB8912C49ACE4C67BADACFA56C2CC63 /* WLSegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061DC1DBD0CC4660361F5F0EAD48C9F0 /* Build configuration list for PBXNativeTarget "WLSegmentBar" */;
+			buildPhases = (
+				8B962C6B3A559AE3955BB1295D643702 /* Sources */,
+				2CC511B91245403408E7AB2C24299DFA /* Frameworks */,
+				87E3DD1C8141B2D3AE9D0BEBE93A74BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLSegmentBar;
+			productName = WLSegmentBar;
+			productReference = E04435584EC7C9FC885EF0DD9BA07CDB /* WLSegmentBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BFB71AFFBE64C402ABD9C4BAAF6AABD /* Pods-WLSegmentBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866C5F16692D3B6708DC2D8C4D22038B /* Build configuration list for PBXNativeTarget "Pods-WLSegmentBar_Tests" */;
+			buildPhases = (
+				9E268A05FB7F0C1206D849431A2A5F17 /* Sources */,
+				3B8F2A5AD7772CE122D794F79A49591B /* Frameworks */,
+				DAC7C42A688A1535F0E331E86FFFE9A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WLSegmentBar_Tests";
+			productName = "Pods-WLSegmentBar_Tests";
+			productReference = 56BE3BA0E76A8C3051AD0B756BDF8055 /* Pods_WLSegmentBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB56AE297EE4C8EA8E229A98463AA1F8 /* Pods-WLSegmentBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3496FBFD447A440549DC6B41BA422BD3 /* Build configuration list for PBXNativeTarget "Pods-WLSegmentBar_Example" */;
+			buildPhases = (
+				916BF874352FE7E6FA36ADAB2BCFE4B8 /* Sources */,
+				B00D73CB2A80C844F2303D89F72053A5 /* Frameworks */,
+				D84945660E5B6EB2B8A9CEED9FFA9D2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA819DE06DABE8E217B24424D971B78 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLSegmentBar_Example";
+			productName = "Pods-WLSegmentBar_Example";
+			productReference = DDE9B38CB4BF3F940E344C5A9DF63CFC /* Pods_WLSegmentBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC8229A2D318679839158D86D2962C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB56AE297EE4C8EA8E229A98463AA1F8 /* Pods-WLSegmentBar_Example */,
+				4BFB71AFFBE64C402ABD9C4BAAF6AABD /* Pods-WLSegmentBar_Tests */,
+				3FB8912C49ACE4C67BADACFA56C2CC63 /* WLSegmentBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B962C6B3A559AE3955BB1295D643702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E940B2EEB5E5749500819AE4DCF00812 /* ReplaceMe.m in Sources */,
+				A3BAAAEA76E6A5E1B6F56FF57B537F98 /* WLSegmentBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916BF874352FE7E6FA36ADAB2BCFE4B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FD87BA6490855AA1A38A781237EA00 /* Pods-WLSegmentBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E268A05FB7F0C1206D849431A2A5F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D0D08BC35C9ED86118D47493AEE1F3 /* Pods-WLSegmentBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBA819DE06DABE8E217B24424D971B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLSegmentBar;
+			target = 3FB8912C49ACE4C67BADACFA56C2CC63 /* WLSegmentBar */;
+			targetProxy = 5890104D8A809197415B1C0BC10FE1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24932DD7DC6ABD7950DBCA30224F292E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5DAB2AC0C796FEDBD24DFF295FBAC7 /* Pods-WLSegmentBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLSegmentBar_Tests/Pods-WLSegmentBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLSegmentBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		519522BF4ECA7D2B07A4481FE2182031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF55387CCC89FF09EB700E30042649F0 /* WLSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WLSegmentBar/WLSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLSegmentBar/WLSegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WLSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		598F89390BDDADDFD14BFC6EBA02BBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF55387CCC89FF09EB700E30042649F0 /* WLSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WLSegmentBar/WLSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLSegmentBar/WLSegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WLSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D1282CAE27F1668CEFD1AD4E65F0ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BECB108EADDBF1E188EC6D0005CBFA /* Pods-WLSegmentBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLSegmentBar_Tests/Pods-WLSegmentBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLSegmentBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA8645C55A282A5D37CF1C6ADC547850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B3C1186F7934194E3D6723BFBE289B /* Pods-WLSegmentBar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLSegmentBar_Example/Pods-WLSegmentBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLSegmentBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA4C2DE22954A0BBEDDE3242FBE5A299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC78743DA6CC907EB57C2BAA76299B8 /* Pods-WLSegmentBar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLSegmentBar_Example/Pods-WLSegmentBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLSegmentBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061DC1DBD0CC4660361F5F0EAD48C9F0 /* Build configuration list for PBXNativeTarget "WLSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598F89390BDDADDFD14BFC6EBA02BBD5 /* Debug */,
+				519522BF4ECA7D2B07A4481FE2182031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3496FBFD447A440549DC6B41BA422BD3 /* Build configuration list for PBXNativeTarget "Pods-WLSegmentBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4C2DE22954A0BBEDDE3242FBE5A299 /* Debug */,
+				EA8645C55A282A5D37CF1C6ADC547850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866C5F16692D3B6708DC2D8C4D22038B /* Build configuration list for PBXNativeTarget "Pods-WLSegmentBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24932DD7DC6ABD7950DBCA30224F292E /* Debug */,
+				7D1282CAE27F1668CEFD1AD4E65F0ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module WLSegmentBar {
+  umbrella header "WLSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

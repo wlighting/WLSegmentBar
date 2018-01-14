@@ -1,0 +1,22 @@
+{
+  "name": "WLSegmentBar",
+  "version": "0.1.0",
+  "summary": "A short description of WLSegmentBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wlighting/WLSegmentBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wlighting": "w0106@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wlighting/WLSegmentBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WLSegmentBar/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WLSegmentBar (0.1.0)
+
+DEPENDENCIES:
+  - WLSegmentBar (from `../`)
+
+EXTERNAL SOURCES:
+  WLSegmentBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WLSegmentBar: 0ad1cc1975e969aabdbc381b2ec3f626352235be
+
+PODFILE CHECKSUM: 55a6c843d4aae6cd59c229acd0807d74e181c688
+
+COCOAPODS: 1.2.1

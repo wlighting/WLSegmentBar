@@ -10,4 +10,9 @@
 
 @interface WLSegmentBar : UIView
 
++ (instancetype)segmentBarWithFrame:(CGRect)frame;
+
+@property (nonatomic,strong) NSArray <NSString *>*itemS;
+
+
 @end

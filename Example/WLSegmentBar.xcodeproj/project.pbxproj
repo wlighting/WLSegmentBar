@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6E9C254C200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */; };
 		6EC641DE200BA22A00DDF7CF /* WLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -61,6 +62,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6E9C254A200E5A5200562794 /* UIView+WLSegmentBarViewFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLSegmentBarViewFrame.h"; sourceTree = "<group>"; };
+		6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLSegmentBarViewFrame.m"; sourceTree = "<group>"; };
 		6EC641DC200BA22A00DDF7CF /* WLSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSegmentBar.h; sourceTree = "<group>"; };
 		6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSegmentBar.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 			children = (
 				6EC641DC200BA22A00DDF7CF /* WLSegmentBar.h */,
 				6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */,
+				6E9C254A200E5A5200562794 /* UIView+WLSegmentBarViewFrame.h */,
+				6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -263,6 +268,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wlighting;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7XDYJ38C3Z;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -408,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC641DE200BA22A00DDF7CF /* WLSegmentBar.m in Sources */,
+				6E9C254C200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m in Sources */,
 				6003F59E195388D20070C39A /* WLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -538,12 +547,15 @@
 			baseConfigurationReference = 3075E08CFBF12C91F06AF557 /* Pods-WLSegmentBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XDYJ38C3Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLSegmentBar/WLSegmentBar-Prefix.pch";
 				INFOPLIST_FILE = "WLSegmentBar/WLSegmentBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -553,12 +565,15 @@
 			baseConfigurationReference = 08BF39DBAE0E344A256B503C /* Pods-WLSegmentBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XDYJ38C3Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLSegmentBar/WLSegmentBar-Prefix.pch";
 				INFOPLIST_FILE = "WLSegmentBar/WLSegmentBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

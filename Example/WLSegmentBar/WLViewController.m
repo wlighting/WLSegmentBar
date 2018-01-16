@@ -8,6 +8,11 @@
 
 #import "WLViewController.h"
 
+#import "WLSegmentBar.h"
+
+#import "UIView+WLSegmentBarViewFrame.h"
+
+
 @interface WLViewController ()
 
 @end
@@ -17,13 +22,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    WLSegmentBar *segmentBar = [WLSegmentBar segmentBarWithFrame:CGRectMake(0, 0, self.view.wl_width, 50)];
+    segmentBar.itemS = @[@"测试1",@"测试2",@"测试3"];
+    segmentBar.itemS = @[@"测试1",@"测试2",@"测试3",@"测试4",@"测试5",@"测试6"];
+    segmentBar.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:segmentBar];
+    
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
+
+
+
+
+
+
 
 @end

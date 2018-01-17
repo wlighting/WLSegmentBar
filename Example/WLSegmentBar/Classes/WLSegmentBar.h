@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class WLSegmentBar;
+
+@protocol WLSegmentBarDelegate <NSObject>
+
+- (void)segmentBar:(WLSegmentBar *)segmentBar didSelectIndex:(NSInteger )toIndex fromIndex:(NSInteger )fromIndex;
+
+@end
+
 @interface WLSegmentBar : UIView
 
 + (instancetype)segmentBarWithFrame:(CGRect)frame;

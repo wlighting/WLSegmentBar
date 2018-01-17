@@ -22,9 +22,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    WLSegmentBar *segmentBar = [WLSegmentBar segmentBarWithFrame:CGRectMake(0, 0, self.view.wl_width, 50)];
-    segmentBar.itemS = @[@"测试1",@"测试2",@"测试3"];
-    segmentBar.itemS = @[@"测试1",@"测试2",@"测试3",@"测试4",@"测试5",@"测试6"];
+    WLSegmentBar *segmentBar = [WLSegmentBar segmentBarWithFrame:CGRectMake(0, 64, self.view.wl_width, 50)];
+    //segmentBar.itemS = @[@"测试1",@"测试2",@"测试3"];
+    segmentBar.itemS = @[@"测试0",@"测试1",@"测试2",@"测试3",@"测试4",@"测试5",@"测试6",@"测试7",@"测试8"];
     segmentBar.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:segmentBar];
     

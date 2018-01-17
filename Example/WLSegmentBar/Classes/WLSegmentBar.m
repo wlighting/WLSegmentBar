@@ -14,9 +14,17 @@
 
 @interface WLSegmentBar ()
 
+{
+    UIButton *_preButton;
+    
+}
+
 @property (nonatomic,weak) UIScrollView *contentScrollView;
 
 @property (nonatomic,strong) NSMutableArray *itemButtonS;
+
+@property (nonatomic,weak) UIView *indicatorView;
+
 
 @end
 
@@ -73,6 +81,19 @@
     return _itemButtonS;
 }
 
+- (UIView *)indicatorView {
+    
+    if (_indicatorView == nil) {
+        CGFloat height = 3;
+        UIView *indicatorView = [[UIView alloc] initWithFrame:CGRectMake(0, self.wl_height - height, 0, height)];
+        [self.contentScrollView addSubview:indicatorView];
+        indicatorView.backgroundColor = [UIColor redColor];
+        _indicatorView = indicatorView;
+        
+    }
+    return _indicatorView;
+}
+
 - (void)setItemS:(NSArray<NSString *> *)itemS {
     _itemS = itemS;
     [self.itemButtonS makeObjectsPerformSelector:@selector(removeFromSuperview)];
@@ -80,6 +101,10 @@
     for (NSString *titleStr in itemS) {
         UIButton *button = [[UIButton alloc] init];
         [button setTitle:titleStr forState:UIControlStateNormal];
+        
+        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor yellowColor] forState:UIControlStateSelected];
+        [button addTarget:self action:@selector(titleButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
         [self.contentScrollView addSubview:button];
         [self.itemButtonS addObject:button];
     }
@@ -90,6 +115,32 @@
     
 }
 
+- (void)titleButtonClicked:(UIButton *)button {
+    _preButton.selected = NO;
+    button.selected = YES;
+    _preButton = button;
+    
+    CGFloat offset = button.wl_centerX - self.wl_width * 0.5;
+    if (offset < 0) {
+        offset = 0;
+    }
+    
+    if (offset > self.contentScrollView.contentSize.width - self.wl_width) {
+        offset = self.contentScrollView.contentSize.width - self.wl_width;
+    }
+    
+    
+    [self.contentScrollView setContentOffset:CGPointMake(offset, 0) animated:YES];
+    
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        self.indicatorView.wl_width = button.wl_width;
+        self.indicatorView.wl_centerX = button.wl_centerX;
+    }];
+    
+    
+    
+}
 
 
 

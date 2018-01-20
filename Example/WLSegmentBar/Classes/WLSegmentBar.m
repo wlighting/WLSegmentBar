@@ -114,7 +114,7 @@
     [self layoutIfNeeded];
     
 }
-
+#pragma mark - 按钮点击事件
 - (void)titleButtonClicked:(UIButton *)button {
     _preButton.selected = NO;
     button.selected = YES;

@@ -20,8 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6E9C254C200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */; };
-		6EC641DE200BA22A00DDF7CF /* WLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */; };
+		6EA254FF204A609A0097688B /* UIView+WLSegmentBarViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA254FD204A609A0097688B /* UIView+WLSegmentBarViewFrame.m */; };
+		6EA25500204A609A0097688B /* WLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA254FE204A609A0097688B /* WLSegmentBar.m */; };
+		6EA25503204A623C0097688B /* WLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA25502204A623C0097688B /* WLSegmentBarConfig.m */; };
+		6EA25506204A82270097688B /* WLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA25505204A82270097688B /* WLSegmentBarVC.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AC4E8C294EE9BCA53AB72072 /* Pods_WLSegmentBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC77017FB6E12754E4C1B9 /* Pods_WLSegmentBar_Example.framework */; };
@@ -62,10 +64,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E9C254A200E5A5200562794 /* UIView+WLSegmentBarViewFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLSegmentBarViewFrame.h"; sourceTree = "<group>"; };
-		6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLSegmentBarViewFrame.m"; sourceTree = "<group>"; };
-		6EC641DC200BA22A00DDF7CF /* WLSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSegmentBar.h; sourceTree = "<group>"; };
-		6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSegmentBar.m; sourceTree = "<group>"; };
+		6EA254FB204A609A0097688B /* WLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSegmentBar.h; sourceTree = "<group>"; };
+		6EA254FC204A609A0097688B /* UIView+WLSegmentBarViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WLSegmentBarViewFrame.h"; sourceTree = "<group>"; };
+		6EA254FD204A609A0097688B /* UIView+WLSegmentBarViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLSegmentBarViewFrame.m"; sourceTree = "<group>"; };
+		6EA254FE204A609A0097688B /* WLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSegmentBar.m; sourceTree = "<group>"; };
+		6EA25501204A623C0097688B /* WLSegmentBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSegmentBarConfig.h; sourceTree = "<group>"; };
+		6EA25502204A623C0097688B /* WLSegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSegmentBarConfig.m; sourceTree = "<group>"; };
+		6EA25504204A82270097688B /* WLSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSegmentBarVC.h; sourceTree = "<group>"; };
+		6EA25505204A82270097688B /* WLSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSegmentBarVC.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722FE87966F8C7320D0C36B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82EC77017FB6E12754E4C1B9 /* Pods_WLSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLSegmentBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,10 +201,14 @@
 		6EC641DB200BA1E900DDF7CF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6EC641DC200BA22A00DDF7CF /* WLSegmentBar.h */,
-				6EC641DD200BA22A00DDF7CF /* WLSegmentBar.m */,
-				6E9C254A200E5A5200562794 /* UIView+WLSegmentBarViewFrame.h */,
-				6E9C254B200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m */,
+				6EA254FC204A609A0097688B /* UIView+WLSegmentBarViewFrame.h */,
+				6EA254FD204A609A0097688B /* UIView+WLSegmentBarViewFrame.m */,
+				6EA254FB204A609A0097688B /* WLSegmentBar.h */,
+				6EA254FE204A609A0097688B /* WLSegmentBar.m */,
+				6EA25501204A623C0097688B /* WLSegmentBarConfig.h */,
+				6EA25502204A623C0097688B /* WLSegmentBarConfig.m */,
+				6EA25504204A82270097688B /* WLSegmentBarVC.h */,
+				6EA25505204A82270097688B /* WLSegmentBarVC.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -415,11 +425,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC641DE200BA22A00DDF7CF /* WLSegmentBar.m in Sources */,
-				6E9C254C200E5A5200562794 /* UIView+WLSegmentBarViewFrame.m in Sources */,
+				6EA25503204A623C0097688B /* WLSegmentBarConfig.m in Sources */,
 				6003F59E195388D20070C39A /* WLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WLViewController.m in Sources */,
+				6EA254FF204A609A0097688B /* UIView+WLSegmentBarViewFrame.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6EA25500204A609A0097688B /* WLSegmentBar.m in Sources */,
+				6EA25506204A82270097688B /* WLSegmentBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
